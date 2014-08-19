@@ -13,7 +13,7 @@
 #define WAVE_UPDATE_FREQUENCY   0.1
 #define SILENCE_VOLUME   45.0
 #define SOUND_METER_COUNT  6
-#define HUD_SIZE  320.0
+#define HUD_SIZE  320
 
 @class FXRecordArcView;
 @protocol FXRecordArcViewDelegate <NSObject>

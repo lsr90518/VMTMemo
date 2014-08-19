@@ -9,6 +9,8 @@
 #import "FXViewController.h"
 
 @interface FXViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *touchButton;
+@property (weak, nonatomic) IBOutlet UIView *buttonBackground;
 
 @end
 
@@ -21,6 +23,10 @@
     self.recordView = [[FXRecordArcView alloc] initWithFrame:CGRectMake(0, 0, 320, 320)];
     [self.view addSubview:self.recordView];
     self.recordView.delegate = self;
+    
+    self.buttonBackground.layer.cornerRadius = 40;
+    self.buttonBackground.clipsToBounds = YES;
+
 }
 
 - (IBAction)tapRecordBtn:(id)sender{
@@ -68,6 +74,27 @@
 //    [alert show];
     
 
+}
+- (IBAction)touchBegin:(id)sender {
+    [self recordBegin];
+}
+- (IBAction)touchOutside:(id)sender {
+    [self recordOver];
+}
+- (IBAction)touchInside:(id)sender {
+    [self recordOver];
+}
+
+-(void)recordBegin{
+    UIColor* touchColor = [[UIColor alloc]initWithRed:255.0/255.0 green:136.0/255.0 blue:138.0/255.0 alpha:1];
+    self.buttonBackground.backgroundColor = touchColor;
+    [self.recordView startForFilePath:[self fullPathAtCache:@"record.wav"]];
+}
+
+-(void)recordOver {
+    UIColor* overColor = [[UIColor alloc]initWithRed:57.0/255.0 green:216.0/255.0 blue:250.0/255.0 alpha:1];
+    self.buttonBackground.backgroundColor = overColor;
+    [self.recordView commitRecording];
 }
 
 @end

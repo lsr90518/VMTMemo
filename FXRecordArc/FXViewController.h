@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "FXRecordArcView.h"
-@interface FXViewController : UIViewController<FXRecordArcViewDelegate>
+@interface FXViewController : UIViewController<FXRecordArcViewDelegate,UIGestureRecognizerDelegate>
 @property(nonatomic, strong) FXRecordArcView *recordView;
 
 @property(nonatomic, strong) AVAudioPlayer *player;

@@ -34,11 +34,11 @@
         }
         
         self.backgroundColor = [UIColor clearColor];
-        self.timeLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 320, 40)];
-        self.timeLabel.font = [UIFont fontWithName:@"HelveticaNeue-Thin" size:35];
-        self.timeLabel.center = CGPointMake(frame.size.width / 2.0 + 2, frame.size.height - 20);
-        [self.timeLabel setTextAlignment:NSTextAlignmentCenter];
-        [self addSubview:self.timeLabel];
+//        self.timeLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 320, 40)];
+//        self.timeLabel.font = [UIFont fontWithName:@"HelveticaNeue-Thin" size:35];
+//        self.timeLabel.center = CGPointMake(frame.size.width / 2.0 + 2, frame.size.height - 20);
+//        [self.timeLabel setTextAlignment:NSTextAlignmentCenter];
+//        [self addSubview:self.timeLabel];
         
         self.hudRect = CGRectMake(self.center.x - (HUD_SIZE / 2), self.center.y - (HUD_SIZE / 2), HUD_SIZE, HUD_SIZE);
     }
