@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DD88F3A19A33F6A00F8BBFC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD88F3919A33F6A00F8BBFC /* MapKit.framework */; };
+		0DD88F3C19A33F7400F8BBFC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD88F3B19A33F7400F8BBFC /* CoreLocation.framework */; };
+		0DD88F4119A3411A00F8BBFC /* ContentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD88F4019A3411A00F8BBFC /* ContentsViewController.m */; };
+		0DD88F4519A35D7700F8BBFC /* MapContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD88F4319A35D7700F8BBFC /* MapContentViewController.m */; };
+		0DD88F4619A35D7700F8BBFC /* MapContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DD88F4419A35D7700F8BBFC /* MapContentViewController.xib */; };
+		0DD88F4919A35F9300F8BBFC /* MKMapView+ZoomLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD88F4819A35F9300F8BBFC /* MKMapView+ZoomLevel.m */; };
+		0DD88F5119A35FD800F8BBFC /* JPSThumbnailAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD88F4D19A35FD800F8BBFC /* JPSThumbnailAnnotation.m */; };
+		0DD88F5219A35FD800F8BBFC /* JPSThumbnailAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD88F4F19A35FD800F8BBFC /* JPSThumbnailAnnotationView.m */; };
+		0DD88F5319A35FD800F8BBFC /* JPSThumnail.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD88F5019A35FD800F8BBFC /* JPSThumnail.m */; };
+		0DD88F5519A375E800F8BBFC /* shibuya1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0DD88F5419A375E800F8BBFC /* shibuya1.jpg */; };
 		E7D0EF4A1946F1A30008490D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7D0EF491946F1A30008490D /* Foundation.framework */; };
 		E7D0EF4C1946F1A30008490D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7D0EF4B1946F1A30008490D /* CoreGraphics.framework */; };
 		E7D0EF4E1946F1A30008490D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7D0EF4D1946F1A30008490D /* UIKit.framework */; };
@@ -35,6 +45,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DD88F3919A33F6A00F8BBFC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		0DD88F3B19A33F7400F8BBFC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0DD88F3F19A3411A00F8BBFC /* ContentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentsViewController.h; sourceTree = "<group>"; };
+		0DD88F4019A3411A00F8BBFC /* ContentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentsViewController.m; sourceTree = "<group>"; };
+		0DD88F4219A35D7700F8BBFC /* MapContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapContentViewController.h; sourceTree = "<group>"; };
+		0DD88F4319A35D7700F8BBFC /* MapContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapContentViewController.m; sourceTree = "<group>"; };
+		0DD88F4419A35D7700F8BBFC /* MapContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapContentViewController.xib; sourceTree = "<group>"; };
+		0DD88F4719A35F9300F8BBFC /* MKMapView+ZoomLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKMapView+ZoomLevel.h"; sourceTree = "<group>"; };
+		0DD88F4819A35F9300F8BBFC /* MKMapView+ZoomLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKMapView+ZoomLevel.m"; sourceTree = "<group>"; };
+		0DD88F4B19A35FD800F8BBFC /* JPSThumbnail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPSThumbnail.h; sourceTree = "<group>"; };
+		0DD88F4C19A35FD800F8BBFC /* JPSThumbnailAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPSThumbnailAnnotation.h; sourceTree = "<group>"; };
+		0DD88F4D19A35FD800F8BBFC /* JPSThumbnailAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPSThumbnailAnnotation.m; sourceTree = "<group>"; };
+		0DD88F4E19A35FD800F8BBFC /* JPSThumbnailAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPSThumbnailAnnotationView.h; sourceTree = "<group>"; };
+		0DD88F4F19A35FD800F8BBFC /* JPSThumbnailAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPSThumbnailAnnotationView.m; sourceTree = "<group>"; };
+		0DD88F5019A35FD800F8BBFC /* JPSThumnail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPSThumnail.m; sourceTree = "<group>"; };
+		0DD88F5419A375E800F8BBFC /* shibuya1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shibuya1.jpg; sourceTree = "<group>"; };
 		E7D0EF461946F1A30008490D /* FXRecordArc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FXRecordArc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7D0EF491946F1A30008490D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E7D0EF4B1946F1A30008490D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,6 +89,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DD88F3C19A33F7400F8BBFC /* CoreLocation.framework in Frameworks */,
+				0DD88F3A19A33F6A00F8BBFC /* MapKit.framework in Frameworks */,
 				E7D0EF4C1946F1A30008490D /* CoreGraphics.framework in Frameworks */,
 				E7D0EF4E1946F1A30008490D /* UIKit.framework in Frameworks */,
 				E7D0EF4A1946F1A30008490D /* Foundation.framework in Frameworks */,
@@ -82,6 +110,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DD88F3D19A340BB00F8BBFC /* TableController */ = {
+			isa = PBXGroup;
+			children = (
+				0DD88F3F19A3411A00F8BBFC /* ContentsViewController.h */,
+				0DD88F4019A3411A00F8BBFC /* ContentsViewController.m */,
+			);
+			name = TableController;
+			sourceTree = "<group>";
+		};
+		0DD88F3E19A340CD00F8BBFC /* MapController */ = {
+			isa = PBXGroup;
+			children = (
+				0DD88F4A19A35FCB00F8BBFC /* JPSThumbnailAnnotation */,
+				0DD88F4219A35D7700F8BBFC /* MapContentViewController.h */,
+				0DD88F4319A35D7700F8BBFC /* MapContentViewController.m */,
+				0DD88F4419A35D7700F8BBFC /* MapContentViewController.xib */,
+				0DD88F4719A35F9300F8BBFC /* MKMapView+ZoomLevel.h */,
+				0DD88F4819A35F9300F8BBFC /* MKMapView+ZoomLevel.m */,
+			);
+			name = MapController;
+			sourceTree = "<group>";
+		};
+		0DD88F4A19A35FCB00F8BBFC /* JPSThumbnailAnnotation */ = {
+			isa = PBXGroup;
+			children = (
+				0DD88F4B19A35FD800F8BBFC /* JPSThumbnail.h */,
+				0DD88F4C19A35FD800F8BBFC /* JPSThumbnailAnnotation.h */,
+				0DD88F4D19A35FD800F8BBFC /* JPSThumbnailAnnotation.m */,
+				0DD88F4E19A35FD800F8BBFC /* JPSThumbnailAnnotationView.h */,
+				0DD88F4F19A35FD800F8BBFC /* JPSThumbnailAnnotationView.m */,
+				0DD88F5019A35FD800F8BBFC /* JPSThumnail.m */,
+			);
+			name = JPSThumbnailAnnotation;
+			sourceTree = "<group>";
+		};
 		E7D0EF3D1946F1A30008490D = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +167,8 @@
 		E7D0EF481946F1A30008490D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0DD88F3B19A33F7400F8BBFC /* CoreLocation.framework */,
+				0DD88F3919A33F6A00F8BBFC /* MapKit.framework */,
 				E7D0EF491946F1A30008490D /* Foundation.framework */,
 				E7D0EF4B1946F1A30008490D /* CoreGraphics.framework */,
 				E7D0EF4D1946F1A30008490D /* UIKit.framework */,
@@ -115,6 +180,8 @@
 		E7D0EF4F1946F1A30008490D /* FXRecordArc */ = {
 			isa = PBXGroup;
 			children = (
+				0DD88F3E19A340CD00F8BBFC /* MapController */,
+				0DD88F3D19A340BB00F8BBFC /* TableController */,
 				E7D0EF581946F1A30008490D /* FXAppDelegate.h */,
 				E7D0EF591946F1A30008490D /* FXAppDelegate.m */,
 				E7D0EF5B1946F1A30008490D /* Main.storyboard */,
@@ -151,6 +218,7 @@
 		E7D0EF6F1946F1A30008490D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0DD88F5419A375E800F8BBFC /* shibuya1.jpg */,
 				E7D0EF701946F1A30008490D /* FXRecordArcTests-Info.plist */,
 				E7D0EF711946F1A30008490D /* InfoPlist.strings */,
 			);
@@ -238,6 +306,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7D0EF621946F1A30008490D /* Images.xcassets in Resources */,
+				0DD88F5519A375E800F8BBFC /* shibuya1.jpg in Resources */,
+				0DD88F4619A35D7700F8BBFC /* MapContentViewController.xib in Resources */,
 				E7D0EF541946F1A30008490D /* InfoPlist.strings in Resources */,
 				E7D0EF5D1946F1A30008490D /* Main.storyboard in Resources */,
 			);
@@ -258,10 +328,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DD88F4919A35F9300F8BBFC /* MKMapView+ZoomLevel.m in Sources */,
 				E7D0EF5A1946F1A30008490D /* FXAppDelegate.m in Sources */,
 				E7D0EF561946F1A30008490D /* main.m in Sources */,
+				0DD88F4119A3411A00F8BBFC /* ContentsViewController.m in Sources */,
 				E7D0EF801946F25E0008490D /* FXRecordArcView.m in Sources */,
+				0DD88F5219A35FD800F8BBFC /* JPSThumbnailAnnotationView.m in Sources */,
 				E7D0EF601946F1A30008490D /* FXViewController.m in Sources */,
+				0DD88F5319A35FD800F8BBFC /* JPSThumnail.m in Sources */,
+				0DD88F4519A35D7700F8BBFC /* MapContentViewController.m in Sources */,
+				0DD88F5119A35FD800F8BBFC /* JPSThumbnailAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
