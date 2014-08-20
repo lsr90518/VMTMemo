@@ -28,5 +28,6 @@
 @property (weak, nonatomic) IBOutlet UIView *penal_background;
 @property (weak, nonatomic) IBOutlet MKMapView *content_map;
 @property (weak, nonatomic) IBOutlet UILabel *time_label;
+@property (weak, nonatomic) NSString *now_time_str;
 
 @end

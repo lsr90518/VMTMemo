@@ -172,8 +172,9 @@
         [self.recordView commitRecording];
         
         MapContentViewController * mcvc = [[MapContentViewController alloc]init];
-//        mcvc.cLat = [NSString stringWithFormat:@"%f",self.coordinate.latitude];
-//        mcvc.cLng = [NSString stringWithFormat:@"%f",self.coordinate.longitude];
+        mcvc.cLat = [NSString stringWithFormat:@"%f",currentLocation.latitude];
+        mcvc.cLng = [NSString stringWithFormat:@"%f",currentLocation.longitude];
+        mcvc.log_time = self.time_label.text;
         [self presentViewController:mcvc animated:NO completion:nil];
         
     }];

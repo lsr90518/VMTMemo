@@ -7,6 +7,7 @@
 //
 
 #import "MapContentViewController.h"
+#import "FXViewController.h"
 
 @interface MapContentViewController ()
 @property (weak, nonatomic) IBOutlet UIView *navigationbar;
@@ -74,10 +75,10 @@
     // Parliament of Canada
     JPSThumbnail *ottawa = [[JPSThumbnail alloc] init];
     ottawa.image = [UIImage imageNamed:@"shibuya1"];
-    ottawa.title = @"title";
-    ottawa.subtitle = @"subtitle";
-    ottawa.coordinate = CLLocationCoordinate2DMake(35.0291102,135.7793681);
-//    ottawa.coordinate = CLLocationCoordinate2DMake(self.cLat.floatValue, self.cLng.floatValue);
+    ottawa.title = @"Title";
+    ottawa.subtitle = self.log_time;
+//    ottawa.coordinate = CLLocationCoordinate2DMake(35.0291102,135.7793681);
+    ottawa.coordinate = CLLocationCoordinate2DMake(self.cLat.floatValue, self.cLng.floatValue);
     ottawa.disclosureBlock = ^{
         [self playMemo];
         [self centerMap];
@@ -133,6 +134,10 @@
         return [((NSObject<JPSThumbnailAnnotationProtocol> *)annotation) annotationViewInMap:mapView];
     }
     return nil;
+}
+- (IBAction)goRecorder:(id)sender {
+    FXViewController *fxvc = [[FXViewController alloc]init];
+    [self presentViewController:fxvc animated:NO completion:nil];
 }
 
 - (void)didReceiveMemoryWarning

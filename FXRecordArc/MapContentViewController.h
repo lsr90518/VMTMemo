@@ -24,4 +24,5 @@
 @property(nonatomic, strong) AVAudioPlayer *player;
 @property(nonatomic, strong) NSString *cLat;
 @property(nonatomic, strong) NSString *cLng;
+@property(nonatomic, strong) NSString *log_time;
 @end
